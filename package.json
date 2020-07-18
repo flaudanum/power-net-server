@@ -1,0 +1,31 @@
+{
+  "name": "powernet-server",
+  "version": "0.0.0",
+  "description": "REST API for modeling electrical transmission networks and performing power flow computations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx jest --coverage",
+    "serve": "nodemon dist/app.js"
+  },
+  "author": "Frederic Laudarin <niobiumz41@gmail.com> (https://github.com/flaudanum)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/jest": "^26.0.4",
+    "@types/mongoose": "^5.7.32",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.0.23",
+    "jest": "^26.1.0",
+    "morgan": "^1.10.0",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.4",
+    "ts-jest": "^26.1.3",
+    "typescript": "^3.9.7"
+  }
+}

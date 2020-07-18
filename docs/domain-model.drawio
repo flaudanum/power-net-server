@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2020-07-18T20:07:47.718Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.4.4 Chrome/83.0.4103.122 Electron/9.1.0 Safari/537.36" etag="kMqyl7Fl9dnjp1OBxY-v" compressed="false" version="13.4.4" type="device">
+  <diagram id="8O5Bz_8Xn0gQCtsVP_Rd" name="Page-1">
+    <mxGraphModel dx="652" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vmsDC6OPAGH_N-1dSbfU-2" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;endSize=24;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="SMYpeR8r_mxg2tHlw__O-6" target="vmsDC6OPAGH_N-1dSbfU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-6" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Graph&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;+ nodes: string[]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;+ edges: Edge[]&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="440" y="507.88" width="100" height="69.75" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-21" value="edges" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#ffffff;endArrow=diamondThin;endFill=1;endSize=24;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-17" target="SMYpeR8r_mxg2tHlw__O-6" edge="1">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-17" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Edge&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ node0: string&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;+ node1: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;+ port: string&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="630" y="500.25" width="100" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-18" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Node&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ label: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ name?: string&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="430" y="370" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-25" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Link&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;lines: Line[]&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="210" y="377.5" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-28" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=diamondThin;endFill=1;endSize=24;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-26" target="SMYpeR8r_mxg2tHlw__O-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-26" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Line&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;resistance: number&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;reactance: number&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;shuntConductivity: number&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;shuntSusceptance: number&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="195" y="500" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-27" value="" style="endArrow=block;endSize=16;endFill=0;html=1;labelBackgroundColor=none;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-25" target="SMYpeR8r_mxg2tHlw__O-18" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-36" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=16;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-29" target="SMYpeR8r_mxg2tHlw__O-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-29" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Bus&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;nomVoltage: number&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;posX: number&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;posY: number&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;voltageMag: number&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="584.5" y="190" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-35" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=16;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-31" target="SMYpeR8r_mxg2tHlw__O-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-31" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Generator&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;control: string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;activePInj: number&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;reactivePInj: number&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="250" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-34" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=16;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="SMYpeR8r_mxg2tHlw__O-32" target="SMYpeR8r_mxg2tHlw__O-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMYpeR8r_mxg2tHlw__O-32" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Load&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;activePowerExt: number&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;span&gt;reactivePowerExt: number&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="410" y="160" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsDC6OPAGH_N-1dSbfU-1" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 10px&quot;&gt;&lt;b style=&quot;font-size: 10px&quot;&gt;Network&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;description: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;graph: Graph&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;buses: Bus[]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;generators: Generator[]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;links: Link[]&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;loads: Load[]&lt;/p&gt;&lt;hr style=&quot;font-size: 10px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 10px&quot;&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=10;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="120" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
