@@ -1,9 +1,9 @@
 import { createRequest, createResponse } from "node-mocks-http";
 
-import { handleErrorRequest, ErrorResponseBody } from "../handle-error-request";
+import { handleServerError, ErrorResponseBody } from "../handle-server-error";
 import StatusError from "../../utils/status-error"
 
-describe("error request handling", () => {
+describe("Server error handling", () => {
 
   const req = createRequest({
     method: "GET",
@@ -15,7 +15,7 @@ describe("error request handling", () => {
 
     const res = createResponse();
 
-    handleErrorRequest(err, req, res, () => { });
+    handleServerError(err, req, res, () => { });
 
     const resBody = <ErrorResponseBody>res._getJSONData();
 
@@ -28,7 +28,7 @@ describe("error request handling", () => {
 
     const res = createResponse();
 
-    handleErrorRequest(err, req, res, () => { });
+    handleServerError(err, req, res, () => { });
 
     const resBody = <ErrorResponseBody>res._getJSONData();
 

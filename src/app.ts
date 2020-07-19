@@ -4,7 +4,9 @@ import mongoose from "mongoose";
 import morgan from "morgan";
 
 import modelingRoutes from "./routes/modeling";
-import { handleErrorRequest } from "./middleware/handle-error-request";
+import { handleServerError } from "./middleware/handle-server-error";
+import { handleNotFoundError } from "./middleware/handle-not-found-error";
+
 
 // Creates a new HTTP server
 const app = express();
@@ -40,9 +42,9 @@ app
   // Routes
   .use("/modeling", modelingRoutes)
 
-  // Error handler
-  .use(handleErrorRequest);
+  .use(handleNotFoundError)
 
+  .use(handleServerError)
 
 mongoose.connect(
   "mongodb://localhost:27017/powernet?retryWrites=true",

@@ -4,7 +4,7 @@ export interface ErrorResponseBody {
   message: string;
   data: any
 }
-export const handleErrorRequest: ErrorRequestHandler = (err, req, res, next) => {
+export const handleServerError: ErrorRequestHandler = (err, req, res, next) => {
   const error = err as { message: string, statusCode?: number, data?: any[] };
 
   // Sets default error status to 500 (server error)

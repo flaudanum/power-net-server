@@ -33,7 +33,7 @@ const networkSchema = new Schema(
 
   },
   // Nested schema for a single edge must not be processed as a 'mixed'
-  { typePojoToMixed: false }
+  { typePojoToMixed: false, timestamps: true }
 );
 
 export default networkSchema;
